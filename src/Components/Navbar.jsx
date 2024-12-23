@@ -5,7 +5,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 export const AcmeLogo = () => {
   return (
-    <img src="./src/Components/pizza.png" alt="image"  style={{height:"20px" , width:"20px"}}/>
+    <img src="https://freepngdesign.com/content/uploads/images/pizza-emoji-icon-9477.png" alt="image"  style={{height:"22px" , width:"31px"}}/>
   );
 };
 
