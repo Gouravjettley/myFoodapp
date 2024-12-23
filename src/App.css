@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    /* margin:0 auto; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+.navbar-logo{
+    display: flex;
+    font: 1.1rem sans-serif;
+    cursor: pointer;
+}
+.navbar-link{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar-link li{
+    margin: 0 1rem;
+}
+.navbar-link a{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.navbar-link a:hover{
+    color: darkred;
+}
+.menu-bar{
+    cursor: pointer;
+    display: none;
+}
+.header{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(255, 51, 0);
+    font-family: 'Protest Riot', sans-serif;
+}
+
+section{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap :10rem;
+    margin: 40px 39px;
+}
+.section-h1{
+    font-size: 40px;
+}
+.section-p{
+    margin-top: "20px";
+    color: "grey";
+    font-size: '20px'; 
+}
+.pizza-image img{
+    height: 286px;
+    width: 300px;
+}
+.section-button{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.content{
+   text-align: center;
+}
+.MenuH1{
+     font-Size:1.3rem;
+     color:black;
+      margin:20px;
+    }
+
+.menu-card{
+    height: 280px;
+    width: 240px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 2rem;
+    transition: transform 0.2s ease-in-out;
+}
+.menu-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.menu-card img{
+    height: 145px;
+    width: 150px;
+    margin-left: 2rem;
+}
+.menuapi{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 10rem;
+}
+.menucard-button{
+    border: 2px solid rgb(46, 46, 145);
+    border-radius: 13px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(137 137 159);
+    color: #fff;
+}
+.btn3{
+    background-color: rgb(255, 68, 0);
+    border-radius: 4px;
+    color: #fff;
+    padding:8px;
+    border-radius:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    cursor: pointer;
+}
+.footer{
+    /* width: 100%; */
+    height:4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    text-align: center;
+    /* margin: 20px; */
+}
+.contact h1{
+    font-weight: bolder;
+    color: rgb(183, 0, 255);
+    margin: 1.5rem;
+}
+.contact textarea{
+    height: 300px;
+    width: 300px;
+    overflow: visible;
+}
+.contact button{
+    margin: 10px;
+    width: 300px;
+    /* background-color: orangered; */
+    color: #fff;
+    font-size: 20px;
+}
+footer{
+    /* width: 100%; */
+    margin-top: 3rem;
+    text-align: center;
+    
+}
+.icons ul a{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+@media only screen and (max-width:390px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar-link{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color:#fff;
+        box-shadow:  rgba(0, 0, 0, 0.1) -12px 72px 56px;
+        width: 100%;
+        justify-content:center;
+        align-items: center;
+    }
+    .navbar-link.active{
+        display: flex;
+        height: 10rem;
+        justify-content: space-between;
+        padding: .5rem;
+        
+    }
+    .menu-bar{
+        display: block;
+    }
+    section{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap :1rem;
+        margin: 40px 39px;
+    }
+    .section-h1{
+        font-size: 24px;
+    }
+    .section-p{
+        font-size: 12px;
+        color: grey;
+        margin-top: 6px;
+    }
+    .pizza-image img{
+        height: 89px;
+        width: 219px;
+    }
+    .section-button{
+        display: flex;
+    }
+    .content h3 , .content h1{
+        margin-left: 2rem;
+    }
+
+    .menuapi{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0rem;
+    } 
+    .MenuH1{
+        font-Size:12px;
+        color:black;
+         margin:20px;
+    }
+    .menu-card{
+        height: 195px;
+        width: 133px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 2rem;
+        transition: transform 0.2s ease-in-out;
+    }
+    .menu-card img{
+        height: 50px;
+        width: 54px;
+    }
+    .menucard-button{
+        font-size: 11px;
+    }
+}
+   
+  
