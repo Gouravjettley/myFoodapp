@@ -9,7 +9,7 @@ const Contact = () => {
      <div className="contact">
       <h1>Share Your Reviews</h1>
       <textarea  cols="30" rows="10" placeholder='write Something' style={{border:"2px solid black", borderRadius:"13px" }}></textarea><br />
-      <Button color="secondary">Submit</Button>
+      <Button style={{background:"  rgb(255, 102, 0)"}}>Submit</Button>
     </div>
     <footer  className='foot'>
       <h1 style={{fontWeight:"bolder"}}>Follow us on</h1><br />
