@@ -2,10 +2,18 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="about" style={{margin:'45px 40px'}}>
-    <h1 style={{textAlign:'center',color:'purple',fontSize:'1.3rem'}}>About Us </h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi enim natus quaerat praesentium ex nulla a voluptatum possimus esse veritatis quibusdam et numquam, illo doloremque temporibus eos libero inventore quidem magni quis corrupti pariatur ipsum eum? Architecto nisi nemo maiores minus voluptate, nam voluptatibus atque ratione dolore voluptatem sapiente eligendi perferendis fuga harum dolorem ducimus! Ad aspernatur deleniti debitis illum dolores, dolorem nemo cumque labore minus ducimus iste natus ipsa id quaerat totam omnis neque nulla commodi necessitatibus repellat exercitationem. Ducimus libero itaque, accusantium exercitationem dolore incidunt, commodi officia expedita amet error totam facere odio accusamus dolorem hic aperiam nemo consequatur sapiente earum. Recusandae, dolores. Quibusdam laborum dolores quis nihil quaerat corrupti alias, consequatur expedita laboriosam obcaecati? Rerum, consequuntur. Ratione soluta dolorum animi voluptatum aperiam alias quidem dolore facere esse ex iure est, nam eligendi ea illo possimus aut iste expedita molestiae dicta repellendus architecto facilis! Rerum voluptatibus itaque ea magnam cum, consequuntur quae excepturi facilis, perspiciatis laboriosam temporibus dolor nesciunt id, ipsa labore explicabo provident minima assumenda. Eius saepe, aliquid aliquam eaque earum assumenda id omnis, iure architecto deleniti impedit. Quibusdam vero autem fugit aliquid corrupti eius rerum velit veniam recusandae voluptatum laudantium, laborum, nesciunt est dicta quia.</p>
-</div>
+    <div className="about" >
+      <h1 style={{ textAlign: 'center', color: 'Orange', fontSize: '2rem' }}>About Us </h1>
+      <p style={{fontSize:"1.5rem"}}>We built this app with one thing in mind  making food easier, better, and more fun for everyone. <br/>
+
+        Whether you're looking to discover new dishes, order from your favorite spots, or just find something tasty nearby, our app brings food to your fingertips. We're here to save you time, satisfy your cravings, and connect you with amazing food experiences.<br/>
+
+        Our goal is simple: to bring people and good food together in the most convenient way possible.
+
+        Thanks for being here and trusting us with your appetite. <br />Let’s make every meal a great one! 🙂
+
+      </p>
+    </div>
   )
 }
 
